@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Beton Quest Editor">
+    <output-path>$USER_HOME$/Desktop</output-path>
+    <root id="archive" name="Beton Quest Editor.jar">
+      <element id="module-output" name="BetonQuestEditor" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="library" level="project" name="paper-1.19.2-215" />
+    </root>
+  </artifact>
+</component>
