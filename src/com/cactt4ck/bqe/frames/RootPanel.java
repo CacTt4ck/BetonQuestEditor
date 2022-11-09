@@ -67,7 +67,11 @@ public class RootPanel extends JPanel {
         });
 
         this.saveItem = new JMenuItem("Save");
+        this.saveItem.setEnabled(false);
+
         this.closeItem = new JMenuItem("Close");
+        this.closeItem.setEnabled(false);
+
         this.exitItem = new JMenuItem("Exit");
         this.exitItem.addActionListener(al -> this.rootFrame.dispose());
 
